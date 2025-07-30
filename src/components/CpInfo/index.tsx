@@ -81,7 +81,7 @@ const CpInfo: React.FC<{
             {cpData.priceIndex.split(",")[1].split("|")[1]} ,{" "}
             {cpData.priceIndex.split(",")[2]}
           </p>
-          <p>ETH Addr: {localStorage.getItem("pultik-user-login")}</p>
+          <p>uS: {localStorage.getItem("pultik-user-login").slice(0, 4)+'***'}</p>
           <p>
             {cpData.priceIndex.split(",")[3]} | {cpData.lS}
           </p>

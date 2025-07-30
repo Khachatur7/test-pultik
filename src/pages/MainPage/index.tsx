@@ -763,6 +763,7 @@ const MainPage = () => {
     createTabsItems();
     checkInitialDate();
     getChartData();
+    alert('New version arrived!')
     console.log(data, lastButton);
   }, []);
 
